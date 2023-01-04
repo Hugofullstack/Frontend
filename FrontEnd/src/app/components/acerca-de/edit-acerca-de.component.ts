@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { persona } from 'src/app/model/persona.model';
 import { ActivatedRoute, Router } from '@angular/router';
 import { PersonaService } from 'src/app/service/persona.service';
+import { ImageService } from 'src/app/service/image.service';
+
 
 @Component({
   selector: 'app-edit-acerca-de',
@@ -13,7 +15,8 @@ export class EditAcercaDeComponent implements OnInit {
 
   constructor(private activatedRouter: ActivatedRoute, 
     private personaService:PersonaService,
-    private router: Router
+    private router: Router,
+    public imageService: ImageService
     ) { }
 
   ngOnInit(): void {
@@ -42,6 +45,7 @@ export class EditAcercaDeComponent implements OnInit {
 )
   }
   uploadImage($event:any){
+    this.imageService.uploadImage($event)
 
   }
 
