@@ -9,7 +9,7 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'
 })
 export class EducacionService {
-URL = environment.URL + 'educacion/';
+URL = 'https://portfolio-hugo-montefusco.onrender.com/educacion/';
 
 
   constructor(private HttpClient : HttpClient) { }

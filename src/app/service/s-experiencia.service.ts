@@ -8,7 +8,7 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'
 })
 export class SExperienciaService {
-	URL = environment.URL + 'expLab/';
+	URL = 'https://portfolio-hugo-montefusco.onrender.com/expLab/';
 
   constructor(private httpClient: HttpClient) { }
 
