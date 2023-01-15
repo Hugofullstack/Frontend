@@ -1,25 +1,118 @@
-[debug] [2023-01-14T22:25:39.163Z] ----------------------------------------------------------------------
-[debug] [2023-01-14T22:25:39.172Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init
-[debug] [2023-01-14T22:25:39.175Z] CLI Version:   11.19.0
-[debug] [2023-01-14T22:25:39.176Z] Platform:      win32
-[debug] [2023-01-14T22:25:39.177Z] Node Version:  v18.12.1
-[debug] [2023-01-14T22:25:39.180Z] Time:          Sat Jan 14 2023 19:25:39 GMT-0300 (hora estándar de Argentina)
-[debug] [2023-01-14T22:25:39.181Z] ----------------------------------------------------------------------
+[debug] [2023-01-15T00:08:03.521Z] ----------------------------------------------------------------------
+[debug] [2023-01-15T00:08:03.534Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-01-15T00:08:03.538Z] CLI Version:   11.19.0
+[debug] [2023-01-15T00:08:03.539Z] Platform:      win32
+[debug] [2023-01-15T00:08:03.539Z] Node Version:  v18.12.1
+[debug] [2023-01-15T00:08:03.542Z] Time:          Sat Jan 14 2023 21:08:03 GMT-0300 (hora estándar de Argentina)
+[debug] [2023-01-15T00:08:03.544Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2023-01-14T22:25:39.576Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2023-01-14T22:25:39.578Z] > authorizing via signed-in user (hugo.n.montefusco@gmail.com)
+[debug] [2023-01-15T00:08:03.985Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-15T00:08:03.989Z] > authorizing via signed-in user (hugo.n.montefusco@gmail.com)
+[debug] [2023-01-15T00:08:03.993Z] [iam] checking project proyecto-integrador-6f9e4 for permissions ["cloudconfig.configs.get","cloudconfig.configs.update","firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]
+[debug] [2023-01-15T00:08:04.005Z] > refreshing access token with scopes: []
+[debug] [2023-01-15T00:08:04.018Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-01-15T00:08:04.019Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-01-15T00:08:04.707Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-01-15T00:08:04.707Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-01-15T00:08:04.936Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/proyecto-integrador-6f9e4:testIamPermissions [none]
+[debug] [2023-01-15T00:08:04.936Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/proyecto-integrador-6f9e4:testIamPermissions x-goog-quota-user=projects/proyecto-integrador-6f9e4
+[debug] [2023-01-15T00:08:04.938Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/proyecto-integrador-6f9e4:testIamPermissions {"permissions":["cloudconfig.configs.get","cloudconfig.configs.update","firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]}
+[debug] [2023-01-15T00:08:05.929Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/proyecto-integrador-6f9e4:testIamPermissions 200
+[debug] [2023-01-15T00:08:05.929Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/proyecto-integrador-6f9e4:testIamPermissions {"permissions":["cloudconfig.configs.get","cloudconfig.configs.update","firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]}
+[debug] [2023-01-15T00:08:05.935Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/proyecto-integrador-6f9e4 [none]
+[debug] [2023-01-15T00:08:06.376Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/proyecto-integrador-6f9e4 200
+[debug] [2023-01-15T00:08:06.376Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/proyecto-integrador-6f9e4 {"projectId":"proyecto-integrador-6f9e4","projectNumber":"1008506263447","displayName":"Proyecto integrador","name":"projects/proyecto-integrador-6f9e4","resources":{"hostingSite":"proyecto-integrador-6f9e4","realtimeDatabaseInstance":"proyecto-integrador-6f9e4-default-rtdb","storageBucket":"proyecto-integrador-6f9e4.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_495db521-5ecb-47ac-9cfd-f249741a378b"}
+[debug] [2023-01-15T00:08:06.376Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/proyecto-integrador-6f9e4 [none]
+[debug] [2023-01-15T00:08:06.818Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/proyecto-integrador-6f9e4 200
+[debug] [2023-01-15T00:08:06.818Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/proyecto-integrador-6f9e4 {"projectId":"proyecto-integrador-6f9e4","projectNumber":"1008506263447","displayName":"Proyecto integrador","name":"projects/proyecto-integrador-6f9e4","resources":{"hostingSite":"proyecto-integrador-6f9e4","realtimeDatabaseInstance":"proyecto-integrador-6f9e4-default-rtdb","storageBucket":"proyecto-integrador-6f9e4.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_495db521-5ecb-47ac-9cfd-f249741a378b"}
 [info] 
-     ######## #### ########  ######## ########     ###     ######  ########
-     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
-     ######    ##  ########  ######   ########  #########  ######  ######
-     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
-     ##       #### ##     ## ######## ########  ##     ##  ######  ########
-
-You're about to initialize a Firebase project in this directory:
-
-  C:\Users\Hugo\Desktop\PROGRAMACION\proyecto integrador\Frontend
-
-Before we get started, keep in mind:
-
-  * You are initializing within an existing Firebase project directory
-
+[info] === Deploying to 'proyecto-integrador-6f9e4'...
+[info] 
+[info] i  deploying database, hosting, remoteconfig 
+[info] i  database: checking rules syntax... 
+[debug] [2023-01-15T00:08:06.843Z] >>> [apiv2][query] GET https://firebasedatabase.googleapis.com/v1beta/projects/proyecto-integrador-6f9e4/locations/-/instances/proyecto-integrador-6f9e4-default-rtdb [none]
+[debug] [2023-01-15T00:08:07.286Z] <<< [apiv2][status] GET https://firebasedatabase.googleapis.com/v1beta/projects/proyecto-integrador-6f9e4/locations/-/instances/proyecto-integrador-6f9e4-default-rtdb 200
+[debug] [2023-01-15T00:08:07.286Z] <<< [apiv2][body] GET https://firebasedatabase.googleapis.com/v1beta/projects/proyecto-integrador-6f9e4/locations/-/instances/proyecto-integrador-6f9e4-default-rtdb {"name":"projects/1008506263447/locations/us-central1/instances/proyecto-integrador-6f9e4-default-rtdb","project":"projects/1008506263447","databaseUrl":"https://proyecto-integrador-6f9e4-default-rtdb.firebaseio.com","type":"DEFAULT_DATABASE","state":"ACTIVE"}
+[debug] [2023-01-15T00:08:07.302Z] >>> [apiv2][query] PUT https://proyecto-integrador-6f9e4-default-rtdb.firebaseio.com/.settings/rules.json dryRun=true
+[debug] [2023-01-15T00:08:07.302Z] >>> [apiv2][body] PUT https://proyecto-integrador-6f9e4-default-rtdb.firebaseio.com/.settings/rules.json "{\n  \"rules\": {\n    \".read\": \"now < 1675911600000\",  // 2023-2-9\n    \".write\": \"now < 1675911600000\",  // 2023-2-9\n  }\n}"
+[debug] [2023-01-15T00:08:07.749Z] <<< [apiv2][status] PUT https://proyecto-integrador-6f9e4-default-rtdb.firebaseio.com/.settings/rules.json 200
+[debug] [2023-01-15T00:08:07.749Z] <<< [apiv2][body] PUT https://proyecto-integrador-6f9e4-default-rtdb.firebaseio.com/.settings/rules.json {"status":"ok"}
+[info] +  database: rules syntax for database proyecto-integrador-6f9e4-default-rtdb is valid 
+[debug] [2023-01-15T00:08:07.780Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/proyecto-integrador-6f9e4/versions [none]
+[debug] [2023-01-15T00:08:07.780Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/proyecto-integrador-6f9e4/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2023-01-15T00:08:09.116Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/proyecto-integrador-6f9e4/versions 200
+[debug] [2023-01-15T00:08:09.116Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/proyecto-integrador-6f9e4/versions {"name":"projects/1008506263447/sites/proyecto-integrador-6f9e4/versions/694277405704dcc1","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2023-01-15T00:08:09.116Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/proyecto-integrador-6f9e4 [none]
+[debug] [2023-01-15T00:08:09.522Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/proyecto-integrador-6f9e4 200
+[debug] [2023-01-15T00:08:09.522Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/proyecto-integrador-6f9e4 {"projectId":"proyecto-integrador-6f9e4","projectNumber":"1008506263447","displayName":"Proyecto integrador","name":"projects/proyecto-integrador-6f9e4","resources":{"hostingSite":"proyecto-integrador-6f9e4","realtimeDatabaseInstance":"proyecto-integrador-6f9e4-default-rtdb","storageBucket":"proyecto-integrador-6f9e4.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_495db521-5ecb-47ac-9cfd-f249741a378b"}
+[debug] [2023-01-15T00:08:09.522Z] >>> [apiv2][query] GET https://firebaseremoteconfig.googleapis.com/v1/projects/1008506263447/remoteConfig 
+[debug] [2023-01-15T00:08:09.930Z] <<< [apiv2][status] GET https://firebaseremoteconfig.googleapis.com/v1/projects/1008506263447/remoteConfig 200
+[debug] [2023-01-15T00:08:09.931Z] <<< [apiv2][body] GET https://firebaseremoteconfig.googleapis.com/v1/projects/1008506263447/remoteConfig {"version":{"versionNumber":"7","updateTime":"2023-01-15T00:03:51.703596Z","updateUser":{"email":"hugo.n.montefusco@gmail.com"},"updateOrigin":"REST_API","updateType":"INCREMENTAL_UPDATE"}}
+[info] i  hosting[proyecto-integrador-6f9e4]: beginning deploy... 
+[info] i  hosting[proyecto-integrador-6f9e4]: found 0 files in ./dist/proyectointegrador/ 
+[debug] [2023-01-15T00:08:09.990Z] [hosting] uploading with 200 concurrency
+[debug] [2023-01-15T00:08:09.997Z] [hosting] hash cache [ZGlzdFxwcm95ZWN0b2ludGVncmFkb3I] not populated
+[info] i  hosting: hashing files [0/0] (NaN%) 
+[info] +  hosting[proyecto-integrador-6f9e4]: file upload complete 
+[debug] [2023-01-15T00:08:10.007Z] [hosting] deploy completed after 65ms
+[info] i  database: releasing rules... 
+[debug] [2023-01-15T00:08:10.032Z] >>> [apiv2][query] GET https://firebasedatabase.googleapis.com/v1beta/projects/proyecto-integrador-6f9e4/locations/-/instances/proyecto-integrador-6f9e4-default-rtdb [none]
+[debug] [2023-01-15T00:08:10.687Z] <<< [apiv2][status] GET https://firebasedatabase.googleapis.com/v1beta/projects/proyecto-integrador-6f9e4/locations/-/instances/proyecto-integrador-6f9e4-default-rtdb 200
+[debug] [2023-01-15T00:08:10.689Z] <<< [apiv2][body] GET https://firebasedatabase.googleapis.com/v1beta/projects/proyecto-integrador-6f9e4/locations/-/instances/proyecto-integrador-6f9e4-default-rtdb {"name":"projects/1008506263447/locations/us-central1/instances/proyecto-integrador-6f9e4-default-rtdb","project":"projects/1008506263447","databaseUrl":"https://proyecto-integrador-6f9e4-default-rtdb.firebaseio.com","type":"DEFAULT_DATABASE","state":"ACTIVE"}
+[debug] [2023-01-15T00:08:10.692Z] >>> [apiv2][query] PUT https://proyecto-integrador-6f9e4-default-rtdb.firebaseio.com/.settings/rules.json 
+[debug] [2023-01-15T00:08:10.693Z] >>> [apiv2][body] PUT https://proyecto-integrador-6f9e4-default-rtdb.firebaseio.com/.settings/rules.json "{\n  \"rules\": {\n    \".read\": \"now < 1675911600000\",  // 2023-2-9\n    \".write\": \"now < 1675911600000\",  // 2023-2-9\n  }\n}"
+[debug] [2023-01-15T00:08:11.245Z] <<< [apiv2][status] PUT https://proyecto-integrador-6f9e4-default-rtdb.firebaseio.com/.settings/rules.json 200
+[debug] [2023-01-15T00:08:11.246Z] <<< [apiv2][body] PUT https://proyecto-integrador-6f9e4-default-rtdb.firebaseio.com/.settings/rules.json {"status":"ok"}
+[info] +  database: rules for database proyecto-integrador-6f9e4-default-rtdb released successfully 
+[debug] [2023-01-15T00:08:11.253Z] [
+  {
+    "config": {
+      "public": "./dist/proyectointegrador/",
+      "ignore": [
+        "firebase.json",
+        "**/*",
+        "**node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "proyecto-integrador-6f9e4"
+    },
+    "version": "projects/1008506263447/sites/proyecto-integrador-6f9e4/versions/694277405704dcc1"
+  }
+]
+[info] i  hosting[proyecto-integrador-6f9e4]: finalizing version... 
+[debug] [2023-01-15T00:08:11.265Z] >>> [apiv2][query] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/proyecto-integrador-6f9e4/versions/694277405704dcc1 updateMask=status%2Cconfig
+[debug] [2023-01-15T00:08:11.266Z] >>> [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/proyecto-integrador-6f9e4/versions/694277405704dcc1 {"status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]}}
+[debug] [2023-01-15T00:08:12.636Z] <<< [apiv2][status] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/proyecto-integrador-6f9e4/versions/694277405704dcc1 200
+[debug] [2023-01-15T00:08:12.636Z] <<< [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/proyecto-integrador-6f9e4/versions/694277405704dcc1 {"name":"projects/1008506263447/sites/proyecto-integrador-6f9e4/versions/694277405704dcc1","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2023-01-15T00:08:41.522176Z","createUser":{"email":"hugo.n.montefusco@gmail.com"},"finalizeTime":"2023-01-15T00:08:45.259707Z","finalizeUser":{"email":"hugo.n.montefusco@gmail.com"}}
+[debug] [2023-01-15T00:08:12.636Z] [hosting] finalized version for proyecto-integrador-6f9e4:[object Object]
+[info] +  hosting[proyecto-integrador-6f9e4]: version finalized 
+[info] i  hosting[proyecto-integrador-6f9e4]: releasing new version... 
+[debug] [2023-01-15T00:08:12.636Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/proyecto-integrador-6f9e4/channels/live/releases versionName=projects%2F1008506263447%2Fsites%2Fproyecto-integrador-6f9e4%2Fversions%2F694277405704dcc1
+[debug] [2023-01-15T00:08:12.636Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/proyecto-integrador-6f9e4/channels/live/releases {}
+[debug] [2023-01-15T00:08:13.824Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/proyecto-integrador-6f9e4/channels/live/releases 200
+[debug] [2023-01-15T00:08:13.824Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/proyecto-integrador-6f9e4/channels/live/releases {"name":"projects/1008506263447/sites/proyecto-integrador-6f9e4/channels/live/releases/1673741325848489","version":{"name":"projects/1008506263447/sites/proyecto-integrador-6f9e4/versions/694277405704dcc1","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2023-01-15T00:08:41.522176Z","createUser":{"email":"hugo.n.montefusco@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AEdFTp6_pNTOqQM_5LL_yceQplqYOYD5ZPgYGwr14O3gFg"},"finalizeTime":"2023-01-15T00:08:45.259707Z","finalizeUser":{"email":"hugo.n.montefusco@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AEdFTp6_pNTOqQM_5LL_yceQplqYOYD5ZPgYGwr14O3gFg"}},"type":"DEPLOY","releaseTime":"2023-01-15T00:08:45.848489901Z","releaseUser":{"email":"hugo.n.montefusco@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AEdFTp6_pNTOqQM_5LL_yceQplqYOYD5ZPgYGwr14O3gFg"}}
+[debug] [2023-01-15T00:08:13.824Z] [hosting] release: {"name":"projects/1008506263447/sites/proyecto-integrador-6f9e4/channels/live/releases/1673741325848489","version":{"name":"projects/1008506263447/sites/proyecto-integrador-6f9e4/versions/694277405704dcc1","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2023-01-15T00:08:41.522176Z","createUser":{"email":"hugo.n.montefusco@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AEdFTp6_pNTOqQM_5LL_yceQplqYOYD5ZPgYGwr14O3gFg"},"finalizeTime":"2023-01-15T00:08:45.259707Z","finalizeUser":{"email":"hugo.n.montefusco@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AEdFTp6_pNTOqQM_5LL_yceQplqYOYD5ZPgYGwr14O3gFg"}},"type":"DEPLOY","releaseTime":"2023-01-15T00:08:45.848489901Z","releaseUser":{"email":"hugo.n.montefusco@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AEdFTp6_pNTOqQM_5LL_yceQplqYOYD5ZPgYGwr14O3gFg"}}
+[info] +  hosting[proyecto-integrador-6f9e4]: release complete 
+[debug] [2023-01-15T00:08:13.824Z] >>> [apiv2][query] GET https://firebaseremoteconfig.googleapis.com/v1/projects/1008506263447/remoteConfig 
+[debug] [2023-01-15T00:08:14.205Z] <<< [apiv2][status] GET https://firebaseremoteconfig.googleapis.com/v1/projects/1008506263447/remoteConfig 200
+[debug] [2023-01-15T00:08:14.206Z] <<< [apiv2][body] GET https://firebaseremoteconfig.googleapis.com/v1/projects/1008506263447/remoteConfig {"version":{"versionNumber":"7","updateTime":"2023-01-15T00:03:51.703596Z","updateUser":{"email":"hugo.n.montefusco@gmail.com"},"updateOrigin":"REST_API","updateType":"INCREMENTAL_UPDATE"}}
+[debug] [2023-01-15T00:08:14.211Z] >>> [apiv2][query] PUT https://firebaseremoteconfig.googleapis.com/v1/projects/1008506263447/remoteConfig [none]
+[debug] [2023-01-15T00:08:14.212Z] >>> [apiv2][body] PUT https://firebaseremoteconfig.googleapis.com/v1/projects/1008506263447/remoteConfig {}
+[debug] [2023-01-15T00:08:15.146Z] <<< [apiv2][status] PUT https://firebaseremoteconfig.googleapis.com/v1/projects/1008506263447/remoteConfig 200
+[debug] [2023-01-15T00:08:15.146Z] <<< [apiv2][body] PUT https://firebaseremoteconfig.googleapis.com/v1/projects/1008506263447/remoteConfig {"version":{"versionNumber":"8","updateTime":"2023-01-15T00:08:47.488147Z","updateUser":{"email":"hugo.n.montefusco@gmail.com"},"updateOrigin":"REST_API","updateType":"INCREMENTAL_UPDATE"}}
+[info] 
+[info] +  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/proyecto-integrador-6f9e4/overview
+[info] Hosting URL: https://proyecto-integrador-6f9e4.web.app
+[debug] [2023-01-15T00:08:20.459Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Hugo\AppData\Roaming\nvm\v18.12.1\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+[error] 
+[error] Error: An unexpected error has occurred.
