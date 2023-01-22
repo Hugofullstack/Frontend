@@ -23,9 +23,11 @@
     "boostrap": "^2.0.0",
     "bootstrap": "^5.2.3",
     "googleapis": "^110.0.0",
+    "jdk": "^0.0.0",
     "ng-circle-progress": "^1.6.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.4.1",
+    "uuid": "^9.0.0",
     "zone.js": "~0.12.0"
   },
   "devDependencies": {
@@ -40,5 +42,20 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
     "typescript": "~4.9.4"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hugofullstack/Frontend.git"
+  },
+  "keywords": [
+    "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"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hugofullstack/Frontend/issues"
+  },
+  "homepage": "https://github.com/Hugofullstack/Frontend#readme"
 }
