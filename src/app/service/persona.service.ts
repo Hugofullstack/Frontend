@@ -8,7 +8,8 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'
 })
 export class PersonaService {
- URL = 'https://portfolio-hugo-montefusco.onrender.com/personas/';
+
+ URL = 'https://portfolio-hugo-montefusco.onrender.com/persona';
 
   constructor(private httpClient: HttpClient) { }
 

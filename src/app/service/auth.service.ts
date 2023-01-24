@@ -11,11 +11,13 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'
 })
 export class AuthService {
-URL = 'https://portfolio-hugo-montefusco.onrender.com/auth/';
+
+ URL = 'https://portfolio-hugo-montefusco.onrender.com/auth/';
+
 
   constructor(private httpClient: HttpClient) { }
 
-  public nuevo(nuevoUsuario= NuevoUsuario): Observable<any>{
+  public nuevo(nuevoUsuario: NuevoUsuario): Observable<any>{
   	return this.httpClient.post<any>(this.URL + 'nuevo', nuevoUsuario);
   }
 

@@ -22,8 +22,11 @@
     "@ng-bootstrap/ng-bootstrap": "^14.0.1",
     "boostrap": "^2.0.0",
     "bootstrap": "^5.2.3",
+    "firebase": "^9.16.0",
+    "firebase-tools": "^8.15.0",
     "googleapis": "^110.0.0",
     "jdk": "^0.0.0",
+    "latest": "^0.2.0",
     "ng-circle-progress": "^1.6.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.4.1",
@@ -52,7 +55,7 @@
   "keywords": [
     "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"
   ],
-  "author": "",
+  "author": "Hugo Montefusco",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Hugofullstack/Frontend/issues"
