@@ -1,8 +1,17 @@
-"hosting":{
-  "public": "public",
-  "ignore":[
-    "firebase.json",
-    "**/.*",
-    "**/node_modules/**"
-  ]
+{
+  "hosting": {
+    "public": "proyecto-integrador-sf9e4-app",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  },
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
 }
