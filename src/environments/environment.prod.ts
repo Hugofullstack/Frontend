@@ -1,14 +1,9 @@
-export const environment = {
-  firebase: {
-    projectId: 'fronthugo-5b350',
-    appId: '1:999940097079:web:b6aea6aa0b5df01628abb2',
-    storageBucket: 'fronthugo-5b350.appspot.com',
-    locationId: 'southamerica-east1',
-    apiKey: 'AIzaSyBqRA9dOL5X9etFdIVkJPhl3f7Fk8-EJc8',
-    authDomain: 'fronthugo-5b350.firebaseapp.com',
-    messagingSenderId: '999940097079',
-    measurementId: 'G-EH7WLLDLMX',
-  },
-  production: true,
-  URL: 'http://localhost:8080/',
+export const firebaseConfig = {
+  apiKey: "AIzaSyDHSc36GYejh5PpO_FKR2yfaH6kTQ_vsZs",
+  authDomain: "proyecto-integrador-6f9e4.firebaseapp.com",
+  databaseURL: "https://proyecto-integrador-6f9e4-default-rtdb.firebaseio.com",
+  projectId: "proyecto-integrador-6f9e4",
+  storageBucket: "proyecto-integrador-6f9e4.appspot.com",
+  messagingSenderId: "1008506263447",
+  appId: "1:1008506263447:web:b0a05b8f3804f5a74c16d2"
 };
