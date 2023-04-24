@@ -14,7 +14,7 @@ export const environment = {
   },
   production: false,
 
-URL: 'http://localhost:8080/'
+URL: 'http://proyecto-integrador-6f9e4.web.app/'
 
 };
 
