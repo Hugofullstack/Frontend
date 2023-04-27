@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 *{
+    background-color: #4c94a3;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,11 +14,12 @@ body {
 h2{
     display: inline;
     font-size: 20px;
-    /* color: #000000; */
+    color: black;
     font-style: italic;
 }
 h3{
     display: inline;
+    color: blue;
     font-size: x-small;
-    /* color: #868686 */
+    
 }

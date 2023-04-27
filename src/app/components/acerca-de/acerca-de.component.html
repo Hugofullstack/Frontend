@@ -1,13 +1,10 @@
 <div class="row">
     <div class="col-md-4 col-lg-6 col-xl-4 justify-content-center align-items-center parte1">
-        <div class="card">
-            <button type= "button" class="btn btn-primary" routerLink = "/editacercade/1" *ngIf="isLogged">
-                Editar persona
-            </button>
+        <div class="cardfoto">
             <div class="card-body">
-                <img src="{{persona.img}}" class="img-fluid" id="fotodeperfil">
-                <p id="nombre"> {{persona.nombre}} {{persona.apellido}} <button type="button" class="btn btn-primary" routerLink="/editacercade/1"
-                    *ngIf="isLogged"><i class="bi bi-pencil-square"></i></button></p>
+                <img src= "{{persona.img}}" class="img-fluid" id="fotodeperfil">
+                <h4><p id= "nombre"> {{persona.nombre}} {{persona.apellido}} <button type="button" class="btn btn-primary" routerLink="/editacercade/1"
+                    *ngIf="isLogged"><i class="bi bi-pencil-square"></i></button></p></h4>
                 <p> Full Stacks Developer Jr</p>
             </div>
         </div>

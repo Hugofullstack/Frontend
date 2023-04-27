@@ -1,17 +1,10 @@
 {
   "hosting": {
-    "public": "proyecto-integrador-sf9e4-app",
+    "public": "dist/pf-nelson-correa",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
     ]
-  },
-  "database": {
-    "rules": "database.rules.json"
-  },
-  "firestore": {
-    "rules": "firestore.rules",
-    "indexes": "firestore.indexes.json"
   }
 }
