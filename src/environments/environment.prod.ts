@@ -1,13 +1,13 @@
 export const environment = {
   firebase: {
-    projectId: 'hugomonte-5d86c',
-    appId: '1:277622673401:web:753d4d325201810683b728',
-    storageBucket: 'hugomonte-5d86c.appspot.com',
+    projectId: 'proyecto-integrador-6f9e4',
+    appId: '1:1008506263447:web:b0a05b8f3804f5a74c16d2',
+    storageBucket: 'proyecto-integrador-6f9e4.appspot.com',
     locationId: 'southamerica-east1',
-    apiKey: 'AIzaSyDaiUUGuMmjUCPx51kTdpKBZAINu9aVwtI',
-    authDomain: 'hugomonte-5d86c.firebaseapp.com',
-    messagingSenderId: '277622673401',
-    measurementId: 'G-9ZMW409XR0',
+    apiKey: 'AIzaSyDHSc36GYejh5PpO_FKR2yfaH6kTQ_vsZs',
+    authDomain: 'proyecto-integrador-6f9e4.firebaseapp.com',
+    messagingSenderId: '1008506263447',
+    
   },
  
   production: true,
