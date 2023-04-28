@@ -13,7 +13,7 @@ export const environment = {
 const app = initializeApp(firebaseConfig);
  
   production: true,
-  URL: "https://portfolio-hugo-montefusco.onrender.com/",
+  URL: 'https://portfolio-hugo-montefusco.onrender.com',
   
   
 };
