@@ -14,4 +14,4 @@ jobs:
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_FRONTHUGO_5B350 }}'
-          projectId: fronthugo-5b350
+          projectId: proyecto-integrador-6f9e4
