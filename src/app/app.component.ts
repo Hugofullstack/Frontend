@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'pf-nelson-correa';
+  title = 'proyecto-integrador-6f9e4';
 }
