@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "proyecto-integrador-6f9e4",
+    "public": "proyecto-integrador-6f9e4-default-rtdb",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -13,5 +13,8 @@
   "firestore": {
     "rules": "firestore.rules",
     "indexes": "firestore.indexes.json"
+  },
+  "storage": {
+    "rules": "storage.rules"
   }
 }
