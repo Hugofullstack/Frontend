@@ -6,7 +6,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "PF-NelsonCorrea": {
+    "proyecto-integrador-6f9e4": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -74,10 +74,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "PF-NelsonCorrea:build:production"
+              "browserTarget": "proyecto-integrador-6f9e4:build:production"
             },
             "development": {
-              "browserTarget": "PF-NelsonCorrea:build:development"
+              "browserTarget": "proyecto-integrador-6f9e4:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -85,7 +85,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "PF-NelsonCorrea:build"
+            "browserTarget": "proyecto-integrador-6f9e4:build"
           }
         },
         "test": {

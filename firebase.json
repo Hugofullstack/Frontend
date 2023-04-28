@@ -1,18 +1,21 @@
 {
   "hosting": {
+    "site":"proyecto-integrador-6f9e4",
     "public": "dist/proyecto-integrador-6f9e4",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
     ]
   },
   "database": {
     "rules": "database.rules.json"
-  },
-  "firestore": {
-    "rules": "firestore.rules",
-    "indexes": "firestore.indexes.json"
   },
   "storage": {
     "rules": "storage.rules"
