@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "proyecto-integrador-6f9e4-default-rtdb",
+    "public": "proyecto-integrador-6f9e4.web.app",
     "ignore": [
       "firebase.json",
       "**/.*",
