@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "proyecto-integrador-6f9e4.web.app",
+    "public": "dist/pf-nelson-correa",
     "ignore": [
       "firebase.json",
       "**/.*",
