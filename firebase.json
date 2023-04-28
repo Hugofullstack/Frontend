@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/pf-nelson-correa",
+    "public": "proyecto-integrador-6f9e4",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -9,5 +9,9 @@
   },
   "database": {
     "rules": "database.rules.json"
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
   }
 }
