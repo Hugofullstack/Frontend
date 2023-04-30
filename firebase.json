@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site":"proyecto-integrador-6f9e4",
+    "site": "proyecto-integrador-6f9e4",
     "public": "dist/pf-nelson-correa",
     "ignore": [
       "firebase.json",
@@ -13,5 +13,8 @@
         "destination": "/index.html"
       }
     ]
+  },
+  "storage": {
+    "rules": "storage.rules"
   }
 }

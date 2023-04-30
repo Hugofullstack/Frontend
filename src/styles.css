@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 *{
-    background-color: #4c94a3;
+    background-color: #cc9900;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,7 +9,7 @@
 
 body {
     overflow-x: hidden;
-    background-color: #2D7AC0;
+    background-color: #cc9900;
 }
 h2{
     display: inline;
