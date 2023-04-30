@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Storage, ref, uploadBytes, list, getDownloadURL} from '@angular/fire/storage'
+import { Storage, ref, uploadBytes, list, getDownloadURL} from '@angular/fire/storage';
 import { environment } from 'src/environments/environment';
 
 @Injectable({
