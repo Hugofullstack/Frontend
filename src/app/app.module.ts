@@ -55,10 +55,7 @@ import { provideStorage,getStorage } from '@angular/fire/storage';
     AppRoutingModule,
     NgCircleProgressModule.forRoot({}),
     HttpClientModule,
-    FormsModule,
-    provideFirebaseApp(() => initializeApp(environment.firebase)),
-    provideStorage(() => getStorage())
-    
+    FormsModule    
   ],
   providers: [
     interceptorProvider
