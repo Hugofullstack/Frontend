@@ -19,7 +19,7 @@ export class ImageService {
   }
 
   getImages(){
-    const imagesRef = ref(this.storage, 'imagen')
+    const imagesRef = ref(this.storage, 'imagen/')
     list(imagesRef)
     .then(async response => {
       for(let item of response.items){
